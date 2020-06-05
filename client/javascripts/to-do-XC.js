@@ -1,5 +1,6 @@
 //jshint esversion: 6
 
+
 let controller = function() {
 
   if (localStorage.getItem("commentsList")) {
