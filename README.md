@@ -14,7 +14,7 @@ formatted as JSON.
 - Use NodeJS and Express for a testing server
 - Use jQuery, JavaScript, and public APIs to fetch JSON data, then use it to refresh part of a web page
 
-## 281 Project 2 Learning Objectives
+## 281 Project 2 Learning Objective
 - A web API or Application Programming Interface is an API
 accessed using the HTTP protocol.
 - Web APIs often deliver data formatted as JSON.

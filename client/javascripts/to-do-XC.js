@@ -19,7 +19,7 @@ let controller = function() {
 
       //log list of paragraph elements
       localStorage.setItem("commentsList", $(".comments").html());
-      console.console.log(localStorage.getItem("commentsList"));
+      console.log(localStorage.getItem("commentsList"));
     }
   };
 
