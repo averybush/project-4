@@ -1,7 +1,7 @@
 //jshint esversion: 6
 
 
-let controller = function() {
+let controller = function(){
 
   if (localStorage.getItem("commentsList")) {
     $(".comments").html(localStorage.getItem("commentsList"));
