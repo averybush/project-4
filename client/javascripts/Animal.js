@@ -48,11 +48,22 @@ class Rabbit extends Animal {
 // Inherit from Animal
 class Dog extends Animal {
   //your code goes here..
-  constructor(name, breed) {
-    super(name);
-    this.breed = breed;
-  }
+  
+  constructor(name, breed, weight, sound) {
+      super(name);
+      this.breed = breed;
+      this.weight = weight;
+      this.sound = sound;
+    }
+    bark() {
+      console.log(this.sound + "! " + this.sound + "!");
+      return this.sound + "! " + this.sound + "!";
+    }
 
+    run(speed) {
+      super.run(speed);
+      this.speed = speed;
+    }
 }
 
 let test_driver = () => {
