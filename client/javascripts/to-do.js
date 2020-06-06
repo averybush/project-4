@@ -42,7 +42,7 @@ let deleteHandler = () => {
 
 $(document).ready(() => {
   //select delete button
-  let buttonElem = document.querySelectorAll('button')[1];
+  let buttonElem = document.querySelectorAll('button')[0];
   buttonElem.addEventListener('click', deleteHandler);
   controller();
 });
